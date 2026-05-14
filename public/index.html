@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Weather Agent</title>
+    <style>
+        body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; padding: 50px; background: #f4f4f9; }
+        #chat-box { width: 400px; height: 300px; border: 1px solid #ccc; padding: 10px; overflow-y: auto; background: white; margin-bottom: 10px; border-radius: 8px; }
+        input { width: 320px; padding: 10px; border-radius: 5px; border: 1px solid #ddd; }
+        button { padding: 10px; cursor: pointer; background: #007bff; color: white; border: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+
+    <h1>AI Weather Agent</h1>
+    <p>Welcome to the AI Weather Agent!</p>
+    <div id="chat-box"></div>
+    <div>
+        <input type="text" id="userInput" placeholder="ဥပမာ- ရန်ကုန်မှာ မိုးရွာမလား?">
+        <button onclick="askAgent()">Send</button>
+    </div>
+</body>
+</html>
