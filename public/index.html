@@ -9,16 +9,16 @@
         #chat-box { width: 400px; height: 300px; border: 1px solid #ccc; padding: 10px; overflow-y: auto; background: white; margin-bottom: 10px; border-radius: 8px; }
         input { width: 320px; padding: 10px; border-radius: 5px; border: 1px solid #ddd; }
         button { padding: 10px; cursor: pointer; background: #007bff; color: white; border: none; border-radius: 5px; }
-    </style>
+        </style>
+    <script src="/js/agent.js"></script>
 </head>
 <body>
-
     <h1>AI Weather Agent</h1>
     <p>Welcome to the AI Weather Agent!</p>
     <div id="chat-box"></div>
     <div>
         <input type="text" id="userInput" placeholder="ဥပမာ- ရန်ကုန်မှာ မိုးရွာမလား?">
-        <button onclick="askAgent()">Send</button>
+        <button id="askButton">Send</button>
     </div>
 </body>
 </html>
